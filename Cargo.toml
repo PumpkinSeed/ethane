@@ -26,6 +26,8 @@ ureq = "2"
 funty = "~1.1.0"
 ethabi = "13.0.0"
 anyhow = "1.0.38"
+strum = {version = "0.20", features = ["derive"]}
+strum_macros = "0.20"
 
 [dev-dependencies]
 test-helper = { path = "./test-helper"}
