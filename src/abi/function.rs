@@ -1,5 +1,6 @@
 use serde_json::Value;
 use crate::abi::types::Param;
+use crate::abi::encode;
 
 #[derive(Debug, Clone, PartialEq)]
 pub struct Function {

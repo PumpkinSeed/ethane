@@ -31,3 +31,4 @@ strum_macros = "0.20"
 
 [dev-dependencies]
 test-helper = { path = "./test-helper"}
+hex-literal = "0.3"

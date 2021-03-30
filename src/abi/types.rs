@@ -10,19 +10,19 @@ use ethereum_types::{H160, U64, U256, U128};
 pub enum Type {
     UnImplemented,
     #[strum(serialize = "int8")]
-    Int8([u8;1]),
+    Int8(i8),
     #[strum(serialize = "int32")]
-    Int32([u8;4]),
+    Int32(i32),
     #[strum(serialize = "int256")]
-    Int256([u8;32]),
+    Int256(U256),
     #[strum(serialize = "uint8")]
-    Uint8([u8;1]),
+    Uint8(u8),
     #[strum(serialize = "uint32")]
-    Uint32([u8;4]),
+    Uint32(u32),
     #[strum(serialize = "uint256")]
     Uint256(U256),
     #[strum(serialize = "bool")]
-    Bool([u8;1]),
+    Bool(bool),
 
     #[strum(serialize = "bytes32")]
     Bytes32(),
